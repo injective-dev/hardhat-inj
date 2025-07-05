@@ -18,7 +18,7 @@ describe('Counter', function () {
     expect(await counter.value()).to.equal(100);
   });
 
-  it('should decrement the count starting from non-zero', async function () {
+  it('should increment the count starting from non-zero', async function () {
     await counter.increment(23);
     expect(await counter.value()).to.equal(123);
   });

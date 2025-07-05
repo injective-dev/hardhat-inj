@@ -13,7 +13,7 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      inj_testnet: 'foo',
+      inj_testnet: 'nil',
     },
     customChains: [
       {
